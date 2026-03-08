@@ -179,7 +179,7 @@ const ZonasPage = () => {
 
             <Modal
                 title={editingZona ? 'Editar Zona' : 'Crear Nueva Zona'}
-                visible={isModalVisible}
+                open={isModalVisible}
                 onCancel={() => setIsModalVisible(false)}
                 onOk={() => form.submit()}
             >

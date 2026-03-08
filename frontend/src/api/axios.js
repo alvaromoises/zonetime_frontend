@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://zonetimeback.vercel.app';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://zonetimeback.vercel.app/api';
 
 // Crear instancia de axios
 const api = axios.create({

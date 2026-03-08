@@ -185,7 +185,7 @@ const TimerTable = ({ refreshTrigger }) => {
 
             <Modal
                 title="Editar Duración del Timer"
-                visible={isModalVisible}
+                open={isModalVisible}
                 onOk={handleUpdateTimer}
                 onCancel={() => setIsModalVisible(false)}
             >

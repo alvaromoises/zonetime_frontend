@@ -160,7 +160,7 @@ const UsuariosPage = () => {
 
             <Modal
                 title={editingUser ? 'Editar Usuario' : 'Crear Nuevo Usuario'}
-                visible={isModalVisible}
+                open={isModalVisible}
                 onCancel={() => setIsModalVisible(false)}
                 onOk={() => form.submit()}
             >
