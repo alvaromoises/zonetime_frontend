@@ -91,7 +91,7 @@ const TimerForm = ({ onSuccess }) => {
                 </Form.Item>
 
                 <Form.Item
-                    label="Hora de Inicio (Formato 24 horas - Zona Portugal)"
+                    label="Hora de Inicio"
                     name="inicio"
                     rules={[{ required: true, message: 'Selecciona hora de inicio' }]}
                 >
@@ -134,11 +134,11 @@ const TimerForm = ({ onSuccess }) => {
                 </Form.Item>
 
                 <Form.Item
-                    label="Pertenencia (Quién será responsable)"
+                    label="Pertenencia"
                     name="pertenencia"
                     rules={[{ required: true, message: 'Ingresa a quién pertenece' }]}
                 >
-                    <Input placeholder="Ej: Juan Pérez, Equipo A, etc." />
+                    <Input placeholder="Coloque un nombre de quien pertenece" />
                 </Form.Item>
 
                 <Form.Item>

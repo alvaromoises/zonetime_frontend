@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import TimerPage from './components/Timer/TimerPage';
 import ZonasPage from './components/Zonas/ZonasPage';
 import UsuariosPage from './components/Usuarios/UsuariosPage';
+import SettingsPage from './components/Settings/SettingsPage';
 
 const ProtectedRoute = ({ element, isAuthenticated }) => {
   return isAuthenticated ? element : <Navigate to="/login" />;
@@ -44,6 +45,7 @@ function AppContent() {
         <Route path="/timers" element={<TimerPage />} />
         <Route path="/zonas" element={<ZonasPage />} />
         <Route path="/usuarios" element={<UsuariosPage />} />
+        <Route path="/configuracion" element={<SettingsPage />} />
       </Route>
       <Route path="/" element={<Navigate to={isAuthenticated ? "/dashboard" : "/login"} />} />
     </Routes>

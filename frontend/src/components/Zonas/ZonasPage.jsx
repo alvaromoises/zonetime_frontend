@@ -193,7 +193,7 @@ const ZonasPage = () => {
                         name="nombre"
                         rules={[{ required: true, message: 'Nombre requerido' }]}
                     >
-                        <Input placeholder="Ej: Lisboa, Oporto, etc." />
+                        <Input placeholder="Coloque el nombre de la zona" />
                     </Form.Item>
 
                     <Form.Item label="Imagen">

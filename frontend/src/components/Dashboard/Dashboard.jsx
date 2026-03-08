@@ -72,7 +72,7 @@ const Dashboard = () => {
                     <Col span={24}>
                         <h2 style={{ margin: 0, color: 'white' }}>Bienvenido, {user?.username}!</h2>
                         <p style={{ margin: '10px 0 0 0', fontSize: '14px', opacity: 0.9 }}>
-                            Hora Portugal: {formatTime()}
+                            Hora del Servidor: {formatTime()}
                         </p>
                     </Col>
                 </Row>
